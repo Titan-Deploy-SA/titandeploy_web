@@ -25,15 +25,29 @@ class Welcome extends CI_Controller
 		$this->load->helper('text');
 		$this->load->model('queries');
 		$this->load->helper('language');
+		$this->load->library('user_agent');
 
 		// Get language from session
 		$language = $this->session->userdata('site_lang') ?: 'english';
 
 		// Load the selected language
-		$this->lang->load('general', $language);
+		$this->lang->load(['general', 'home','blog','about','contact','service'], 'english');
 
 
 	}
+
+	public function changeLanguage($lang = 'english')
+    {
+        $allowed_languages = ['english', 'french'];
+
+        if (in_array($lang, $allowed_languages)) {
+            $this->session->set_userdata('site_lang', $lang);
+        }
+
+        // Revenir à la page précédente
+        redirect($this->agent->referrer() ?? 'welcome');
+    }
+
 	public function index()
 	{
 
