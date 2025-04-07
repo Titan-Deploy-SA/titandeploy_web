@@ -24,7 +24,7 @@
                     </div>
                     <div class="dropdown ms-3">
                         <?php
-                        $current_lang = $this->session->userdata('site_lang') ?? 'french';
+                        $current_lang = $this->session->userdata('site_lang') ?? 'english';
                         $lang_label = $current_lang === 'french' ? 'Français' : 'English';
                         $lang_flag = $current_lang === 'french' ? 'fa-globe-europe' : 'fa-globe-europe';
                         ?>

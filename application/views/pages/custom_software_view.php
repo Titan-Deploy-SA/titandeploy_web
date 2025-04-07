@@ -4,7 +4,7 @@
 <div class="container-fluid bg-light py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">Custom Software Development</h4>
+            <h4 class="text-primary"><?=$this->lang->line('services_custom');?></h4>
             <h1 class="display-4 mb-4">Tailored Solutions for Your Business Needs</h1>
             <p class="mb-4">Our expertise in custom software development ensures that your business gets the perfect solution, tailored to your unique requirements.</p>
         </div>
