@@ -1,4 +1,6 @@
 <?php
+
+// Custom software development
 $lang["services_custom"] = "Développement de logiciels sur mesure";
 $lang["services_custom_tailored"] = "Des solutions sur mesure pour les besoins de votre entreprise";
 $lang["services_custom_our_exp"] = "Notre expertise en développement de logiciels sur mesure garantit à votre entreprise une solution parfaitement adaptée à vos besoins spécifiques.";
@@ -36,3 +38,42 @@ $lang["services_custom_improved"] = "Expérience utilisateur optimisée";
 $lang["services_custom_data"] = "Sécurité et fiabilité des données";
 $lang["services_custom_let_us"] = "Transformez votre entreprise grâce à nos solutions logicielles de pointe.";
 $lang["services_custom_button_start"] = "Lancez votre projet";
+
+// Web development
+$lang["services_web_develop"] = "Développement web";
+$lang["services_web_craft"] = "Création de sites web engageants et fonctionnels";
+$lang["services_web_our_web"] = "Nos services web créent des sites réactifs et intuitifs qui favorisent l’engagement et offrent une expérience utilisateur exceptionnelle.";
+$lang["services_web_our_service"] = "Nos services";
+$lang["services_web_we_offer"] = "Nous offrons une gamme complète de services web pour les entreprises de toutes tailles.";
+$lang["services_web_responsive"] = "Conception web responsive";
+$lang["services_web_ecomm"] = "Développement e-commerce";
+$lang["services_web_content"] = "Systèmes de gestion de contenu";
+$lang["services_web_custom"] = "Applications web sur mesure";
+$lang["services_web_website_main"] = "Maintenance et support de site web";
+$lang["services_custom_we_strive"] = "Nous créons des sites à la fois esthétiques et optimisés pour la performance et les conversions.";
+$lang["services_custom_button_get_free"] = "Consultation gratuite";
+$lang["services_custom_our_development"] = "Notre processus de développement";
+$lang["services_custom_our_web"] = "Notre processus de développement web garantit une transition fluide du concept à la réalisation :";
+$lang["services_web_discovery"] = "1. Découverte :";
+$lang["services_web_understanding"] = "Comprendre vos objectifs et votre audience.";
+$lang["services_web_planning"] = "2. Planification :";
+$lang["services_web_defining"] = "Structure, fonctionnalités et technologies.";
+$lang["services_web_design"] = "3. Conception :";
+$lang["services_web_creating"] = "Création d’interfaces intuitives et attrayantes.";
+$lang["services_web_development"] = "4. Développement :";
+$lang["services_web_building"] = "Sites robustes avec technologies modernes.";
+$lang["services_web_testing"] = "5. Tests :";
+$lang["services_web_conducting"] = "Tests complets pour garantir performance et bon fonctionnement.";
+$lang["services_web_launch"] = "6. Lancement :";
+$lang["services_web_deploying"] = "Déploiement du site et lancement sans accroc.";
+$lang["services_web_optimization"] = "7. Optimisation :";
+$lang["services_web_providing"] = "Optimisation continue et mises à jour régulières.";
+$lang["services_web_why_choose"] = "Pourquoi nous choisir ?";
+$lang["services_web_here"] = "Voici pourquoi nos clients nous font confiance pour leurs projets web :";
+$lang["services_web_creative"] = "Designs créatifs et modernes";
+$lang["services_web_mobile"] = "Approche mobile first";
+$lang["services_web_seo"] = "Optimisation SEO et performance";
+$lang["services_web_secure"] = "Solutions sécurisées et évolutives";
+$lang["services_web_dedicated"] = "Support et maintenance dédiés";
+$lang["services_web_let_us"] = "Créons ensemble un site qui dépasse vos attentes.";
+$lang["services_web_button_start"] = "Lancez votre projet";
