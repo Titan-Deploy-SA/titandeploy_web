@@ -18,10 +18,10 @@
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
                 <h4 class="text-primary"><?=$this->lang->line('fintech_our_fintech');?></h4>
-                <p class="mb-4"><?=$this->lang->line('fintech_our_we_provide');?></p>
+                <p class="mb-4"><?=$this->lang->line('fintech_we_provide');?></p>
                 <ul class="list-unstyled">
-                    <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_our_payment');?></li>
-                    <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_our_mobile');?></li>
+                    <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_payment');?></li>
+                    <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_mobile');?></li>
                     <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_blockchain');?></li>
                     <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_peer');?></li>
                     <li class="mb-3"><i class="fa fa-check text-primary me-2"></i><?=$this->lang->line('fintech_financial');?></li>
