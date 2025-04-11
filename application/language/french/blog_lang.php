@@ -1,1 +1,25 @@
 <?php
+$lang["blog_from_blog"] = "Depuis le blog";
+$lang["blog_news"] = "Actualités et mises à jour";
+$lang["blog_stay"] = "Suivez les dernières avancées tech, de l’IA à nos contributions au DevFest Guinée. Découvrez des articles sur l’innovation et notre rôle dans le futur du numérique.";
+$lang["blog_ai_and_business"] = "IA et Entreprise";
+$lang["blog_martin"] = "Martin.C";
+$lang["blog_date"] = "30 Déc 2025";
+$lang["blog_comment"] = "6 Commentaires";
+$lang["blog_how_ai"] = "Comment l’IA révolutionne les opérations commerciales";
+$lang["blog_learn_how"] = "Découvrez comment l’IA transforme les stratégies, stimule l’innovation et optimise les opérations dans divers secteurs.";
+$lang["blog_read_more"] = "En savoir plus";
+$lang["blog_ai_and_dev"] = "IA et Développement";
+$lang["blog_martin"] = "Martin.C";
+$lang["blog_date"] = "30 Déc 2025";
+$lang["blog_comment"] = "6 Commentaires";
+$lang["blog_integration_ai"] = "Intégrer l’IA dans votre flux de développement";
+$lang["blog_a_guide"] = "Guide pour intégrer l’IA dans le développement afin d’optimiser la productivité et créer des applications intelligentes.";
+$lang["blog_read_more"] = "En savoir plus";
+$lang["blog_tech_events"] = "Événements Tech";
+$lang["blog_martin"] = "Martin.C";
+$lang["blog_date"] = "30 Déc 2025";
+$lang["blog_comment"] = "6 Commentaires";
+$lang["blog_supporting"] = "Soutenir le DevFest Guinée : Valoriser la tech locale";
+$lang["blog_this_year"] = "Cette année, nous avons soutenu le DevFest Guinée, axé sur l’innovation, l’IA et le développement logiciel.";
+$lang["blog_read_more"] = "En savoir plus";
