@@ -219,3 +219,48 @@ $lang["uiux_focus"] = "Accent sur l’accessibilité et l’inclusivité";
 $lang["uiux_streamlined"] = "Navigation et utilisabilité simplifiées";
 $lang["uiux_enhanced"] = "Identité de marque renforcée";
 $lang["uiux_button_get_in"] = "Contactez-nous";
+
+// Hire our expert
+$lang["hire_hr_recruitement"] = "Recrutement RH";
+$lang["hire_hire_top"] = "Recrutez les meilleurs talents";
+$lang["hire_we_connect"] = "Nous vous mettons en relation avec des professionnels expérimentés dans divers domaines du développement pour répondre à vos besoins métiers.";
+$lang["hire_types"] = "Profils de développeurs proposés";
+$lang["hire_our_network"] = "Notre réseau regroupe des développeurs qualifiés aux expertises variées :";
+$lang["hire_frontend"] = "Développeurs Frontend (React, Angular, Vue.js)";
+$lang["hire_backend"] = "Développeurs Backend (Node.js, Python, PHP, Java)";
+$lang["hire_mobile"] = "Développeurs d’applications mobiles (iOS, Android, Flutter, React Native)";
+$lang["hire_full"] = "Développeurs Full-Stack";
+$lang["hire_devops"] = "Ingénieurs DevOps";
+$lang["hire_data"] = "Data Scientists et Ingénieurs IA/ML";
+$lang["hire_cloud"] = "Ingénieurs Cloud (AWS, Azure, GCP)";
+$lang["hire_button_start"] = "Commencer le recrutement";
+$lang["hire_our_hiring"] = "Processus de recrutement";
+$lang["hire_step1"] = "Étape 1 : Analyse des besoins";
+$lang["hire_we_work"] = "Nous collaborons avec vous pour comprendre vos besoins : compétences techniques, niveau d’expérience et objectifs du projet.";
+$lang["hire_step2"] = "Étape 2 : Présélection des talents";
+$lang["hire_our_experts"] = "Nos experts identifient et présélectionnent les candidats correspondant à vos critères à partir de notre vaste vivier de talents.";
+$lang["hire_step3"] = "Étape 3 : Entretiens et intégration";
+$lang["hire_we_arrange"] = "Nous organisons les entretiens et facilitons l’intégration des candidats sélectionnés pour garantir un démarrage fluide du projet.";
+$lang["hire_pricing_plan"] = "Formules tarifaires";
+$lang["hire_junior_dev"] = "Développeurs juniors";
+$lang["hire_1000_month"] = "1 000 $/mois";
+$lang["hire_1_to_2_years"] = "1 à 2 ans d’expérience";
+$lang["hire_front_back"] = "Compétences Frontend/Backend";
+$lang["hire_basic_project"] = "Support projet de base";
+$lang["hire_button_get_started"] = "Commencer";
+$lang["hire_middle_lev_dev"] = "Développeur intermédiaire";
+$lang["hire_2500_month"] = "2 500 $/mois";
+$lang["hire_3_to_5_years"] = "3 à 5 ans d’expérience";
+$lang["hire_full_stack"] = "Développement Full-Stack";
+$lang["hire_advanced_troble"] = "Débogage avancé";
+$lang["hire_button_get_started"] = "Commencer";
+$lang["hire_senior_dev"] = "Développeur senior";
+$lang["hire_4900_month"] = "4 900 $/mois";
+$lang["hire_6_years"] = "6+ ans d’expérience";
+$lang["hire_expert"] = "Expert en technologies multiples";
+$lang["hire_leadership"] = "Leadership et mentorat";
+$lang["hire_button_get_started"] = "Commencer";
+
+
+
+
