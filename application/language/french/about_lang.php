@@ -1,1 +1,46 @@
 <?php
+$lang["home_aboutstart_titandeploy"] = "À propos de TitanDeploy";
+$lang["home_aboutstart_innovation"] = "Innover pour demain";
+$lang["home_aboutstart_attitandeploy"] = "Chez TitanDeploy, nous créons des solutions innovantes qui permettent aux entreprises d’atteindre de nouveaux sommets. Notre expertise technologique offre une valeur inégalée à nos clients dans le monde entier.";
+$lang["home_aboutstart_ourteam"] = "Notre équipe s'engage à innover, optimiser l'efficacité et bâtir un avenir plus intelligent pour les entreprises de tous secteurs.";
+$lang["home_aboutstart_tailored"] = "Solutions tech sur mesure pour votre entreprise";
+$lang["home_aboutstart_expertise"] = "Expertise en logiciels, cloud et FinTech";
+$lang["home_aboutstart_atrusted"] = "Partenaire de confiance pour réussir";
+$lang["home_button_moreinfo"] = "Plus d'informations";
+$lang["home_aboutstart_projects"] = "Projets réalisés";
+$lang["home_aboutstart_global"] = "Partenaires mondiaux";
+$lang["home_aboutstart_skilled"] = "Développeurs qualifiés";
+$lang["home_aboutstart_successful"] = "Déploiements réussis";
+
+$lang["home_feature_ourfeature"] = "Nos fonctionnalités";
+$lang["home_feature_empowering"] = "Valorisez votre entreprise grâce à la technologie";
+$lang["home_feature_wecombine"] = "Chez TitanDeploy, nous allions innovation et expertise pour offrir des solutions de pointe qui font progresser votre entreprise. Découvrez comment nos fonctionnalités garantissent efficacité, fiabilité et croissance.";
+$lang["home_feature_customsof"] = "Solutions logicielles sur mesure";
+$lang["home_feature_tailored"] = "Des applications logicielles sur mesure conçues pour répondre à vos besoins et défis spécifiques.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_feature_webmobile"] = "Développement Web et Mobile";
+$lang["home_feature_building"] = "Sites web responsives et applis mobiles intuitives pour une expérience optimale.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_feature_services"] = "Services Cloud";
+$lang["home_feature_scalable"] = "Solutions cloud évolutives pour garantir une connectivité et une sécurité constantes pour votre entreprise.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_feature_fintech"] = "Solutions FinTech";
+$lang["home_feature_innovation"] = "Services de technologie financière innovants, incluant des passerelles de paiement et l'intégration de la blockchain.";
+$lang["home_button_learnmore"] = "En savoir plus";
+
+$lang["home_ourservices"] = "Nos services";
+$lang["home_ourservices_delivering"] = "L'excellence au service de chaque solution";
+$lang["home_ourservices_titandeploy"] = "TitanDeploy propose des solutions technologiques sur mesure pour aider les entreprises à croître, gagner en efficacité et réussir durablement.";
+$lang["home_ourservices_custom"] = "Logiciels sur mesure";
+$lang["home_ourservices_wedesign"] = "Nous concevons des logiciels évolutifs adaptés à vos besoins, alliant performance et sécurité.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_ourservices_cloud"] = "Solutions Cloud";
+$lang["home_ourservices_empower"] = "Boostez votre entreprise grâce au cloud : accessibilité, évolutivité et efficacité.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_ourservices_fintech"] = "Solutions FinTech";
+$lang["home_ourservices_revolutionize"] = "Révolutionnez vos processus financiers avec des applications FinTech innovantes et fluides.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_ourservices_iot"] = "Intégration IoT";
+$lang["home_ourservices_unlock"] = "Exploitez l’IoT pour connecter vos appareils, optimiser vos processus et améliorer vos décisions.";
+$lang["home_button_learnmore"] = "En savoir plus";
+$lang["home_button_exploremore"] = "Découvrir plus de services";
