@@ -1,2 +1,29 @@
 <?php
 $lang["contact_us"] = "Contact Us";
+$lang["contact_we_did"] = "We'd love to hear from you!";
+$lang["contact_send_message"] = "Send Your Message";
+$lang["contact_feel"] = "Feel free to send us your inquiries, feedback, or comments. We'll get back to you as
+                        soon as possible.";
+$lang["contact_your_name"] = "Your Name";
+$lang["contact_your_email"] = "Your Email";
+$lang["contact_your_phone"] = "Your Phone";
+$lang["contact_your_project"] = "Your Project";
+$lang["contact_select"] = "Select Project Type";
+$lang["contact_web_dev"] = "Web Development";
+$lang["contact_mobile_dev"] = "Mobile Development";
+$lang["contact_cloud_infra"] = "Cloud Infrastructures";
+$lang["contact_ia_integration"] = "IA integration";
+$lang["contact_blockchain"] = "BlockChain";
+$lang["contact_custom_solution"] = "Custom Solution";
+$lang["contact_others"] = "Others";
+$lang["contact_type_of_project"] = "Type of Project";
+$lang["contact_select_budget"] = "Select Budget";
+$lang["contact_1000"] = "$1,000 - $5,000";
+$lang["contact_5000"] = "$5,000 - $10,000";
+$lang["contact_10000"] = "$10,000 - $20,000";
+$lang["contact_20000"] = "$20,000 - $50,000";
+$lang["contact_more_than"] = "More than $50,000";
+$lang["contact_budget"] = "Budget";
+$lang["contact_subject"] = "Subject";
+$lang["contact_message"] = "Message";
+$lang["contact_button_send_message"] = "Send Message";
