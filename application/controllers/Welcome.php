@@ -31,7 +31,9 @@ class Welcome extends CI_Controller
 		$language = $this->session->userdata('site_lang') ?: 'english';
 
 		// Load the selected language
-		$this->lang->load(['general', 'home','blog','about','contact','service'], 'english');
+
+		$this->lang->load(['general', 'home','blog','about','contact','service'], $language);
+		
 
 
 	}
@@ -66,8 +68,7 @@ class Welcome extends CI_Controller
 			}
 		}
 
-		$active_language = $this->session->userdata('site_lang') ?: 'english';
-		$data['active_language'] = $active_language;
+		
 
 		$this->load->view('home_view', $data);
 	}

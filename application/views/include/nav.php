@@ -24,7 +24,7 @@
                     </div>
                     <div class="dropdown ms-3">
                         <?php
-                        $current_lang = $this->session->userdata('site_lang') ?? 'french';
+                        $current_lang = $this->session->userdata('site_lang') ?? 'english';
                         $lang_label = $current_lang === 'french' ? 'Français' : 'English';
                         $lang_flag = $current_lang === 'french' ? 'fa-globe-europe' : 'fa-globe-europe';
                         ?>
@@ -54,11 +54,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-0 mx-lg-auto">
-                    <a href="<?php echo site_url('/') ?>" class="nav-item nav-link active">Home</a>
-                    <a href="<?php echo site_url('/about') ?>" class="nav-item nav-link">About</a>
+                    <a href="<?php echo site_url('/') ?>" class="nav-item nav-link active"><?=$this->lang->line('nav_home');?></a>
+                    <a href="<?php echo site_url('/about') ?>" class="nav-item nav-link"><?=$this->lang->line('nav_about');?></a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                            <span class="dropdown-toggle">Services</span>
+                            <span class="dropdown-toggle"><?=$this->lang->line('nav_services');?></span>
                         </a>
                         <div class="dropdown-menu">
                             <a href="<?php echo site_url('services/software') ?>" class="dropdown-item">Custom Software
@@ -74,11 +74,11 @@
                                 experts</a>
                         </div>
                     </div>
-                    <a href="<?php echo site_url('blog') ?>" class="nav-item nav-link">Blog</a>
-                    <a href="<?php echo site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                    <a href="<?php echo site_url('blog') ?>" class="nav-item nav-link"><?=$this->lang->line('nav_blog');?></a>
+                    <a href="<?php echo site_url('contact') ?>" class="nav-item nav-link"><?=$this->lang->line('nav_contact');?></a>
                     <div class="nav-btn px-3">
                         <a href="<?php echo site_url("contact/") ?>"
-                            class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Get Quotation</a>
+                            class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"><?=$this->lang->line('nav_buttton_get_quotation');?></a>
                     </div>
                 </div>
             </div>
@@ -92,8 +92,8 @@
                     </div>
                 </a>
                 <div class="d-flex flex-column ms-3">
-                    <span>Call to Our Experts</span>
-                    <a href="tel:+91 90353 25481"><span class="text-dark">Free: +91 90353 25481</span></a>
+                    <span><?=$this->lang->line('nav_call_expert');?></span>
+                    <a href="tel:+91 90353 25481"><span class="text-dark"><?=$this->lang->line('nav_free');?></span></a>
                 </div>
             </div>
         </nav>
