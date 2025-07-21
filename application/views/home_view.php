@@ -11,16 +11,15 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-7 animated fadeInLeft">
                         <div class="text-sm-center text-md-start">
-                            <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To TitanDeploy</h4>
-                            <h1 class="display-1 text-white mb-4">Innovative Software Solutions</h1>
+                            <h4 class="text-white text-uppercase fw-bold mb-4"><?=$this->lang->line('home_carousel_welcome');?></h4>
+                            <h1 class="display-1 text-white mb-4"><?=$this->lang->line('home_carousel_innovation');?></h1>
                             <p class="mb-5 fs-5">
-                                At TitanDeploy, we craft tailored software solutions that empower businesses to thrive
-                                in the digital era. From custom applications to cutting-edge AI, we've got you covered.
+                            <?=$this->lang->line('home_carousel_attitandeploy');?>
                             </p>
                             <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                 <!-- <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
                                         class="fas fa-play-circle me-2"></i> Discover More</a> -->
-                                <a  class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>">Get Started</a>
+                                <a  class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>"><?=$this->lang->line('home_button_getstarted');?></a>
                             </div>
                         </div>
                     </div>
@@ -48,17 +47,15 @@
                     </div>
                     <div class="col-lg-7 animated fadeInRight">
                         <div class="text-sm-center text-md-end">
-                            <h4 class="text-white text-uppercase fw-bold mb-4">Empowering Businesses</h4>
-                            <h1 class="display-1 text-white mb-4">AI, IoT & Blockchain Solutions</h1>
+                            <h4 class="text-white text-uppercase fw-bold mb-4"><?=$this->lang->line('home_carousel_empower');?></h4>
+                            <h1 class="display-1 text-white mb-4"><?=$this->lang->line('home_carousel_ai');?></h1>
                             <p class="mb-5 fs-5">
-                                Leverage advanced technologies like AI, IoT, and Blockchain to revolutionize your
-                                operations.
-                                TitanDeploy delivers innovation for a smarter tomorrow.
+                            <?=$this->lang->line('home_carousel_leverage');?>
                             </p>
                             <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="<?php echo site_url("about/") ?>"><i
-                                        class="fas fa-play-circle me-2"></i> Explore More</a>
-                                <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>">Contact Us</a>
+                                        class="fas fa-play-circle me-2"></i> <?=$this->lang->line('home_button_explore');?></a>
+                                <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>"><?=$this->lang->line('home_button_contactus');?></a>
                             </div>
                         </div>
                     </div>
@@ -74,17 +71,15 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-7 animated fadeInLeft">
                         <div class="text-sm-center text-md-start">
-                            <h4 class="text-white text-uppercase fw-bold mb-4">Transforming Finance</h4>
-                            <h1 class="display-1 text-white mb-4">FinTech Solutions for the Future</h1>
+                            <h4 class="text-white text-uppercase fw-bold mb-4"><?=$this->lang->line('home_carousel_transforming');?></h4>
+                            <h1 class="display-1 text-white mb-4"><?=$this->lang->line('home_carousel_fintech');?></h1>
                             <p class="mb-5 fs-5">
-                                Drive innovation in finance with TitanDeploy's FinTech solutions. From secure payment
-                                gateways
-                                to blockchain-enabled platforms, we redefine financial technology.
+                            <?=$this->lang->line('home_carousel_drive');?>
                             </p>
                             <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="<?php echo site_url("services/fintech") ?>"><i
-                                        class="fas fa-play-circle me-2"></i> Learn More</a>
-                                <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>">Contact Us</a>
+                                        class="fas fa-play-circle me-2"></i> <?=$this->lang->line('home_button_learnmore');?></a>
+                                <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="<?php echo site_url("contact/") ?>"><?=$this->lang->line('home_button_contactus');?></a>
                             </div>
                         </div>
                     </div>
@@ -107,10 +102,9 @@
 <div class="container-fluid feature bg-light py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">Our Features</h4>
-            <h1 class="display-4 mb-4">Empowering Your Business Through Technology</h1>
-            <p class="mb-0">At TitanDeploy, we combine innovation and expertise to deliver cutting-edge solutions that
-                drive your business forward. Discover how our features ensure efficiency, reliability, and growth.</p>
+            <h4 class="text-primary"><?=$this->lang->line('home_feature_ourfeature');?></h4>
+            <h1 class="display-4 mb-4"><?=$this->lang->line('home_feature_empowering');?></h1>
+            <p class="mb-0"><?=$this->lang->line('home_feature_wecombine');?></p>
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -118,10 +112,9 @@
                     <div class="feature-icon p-4 mb-4 text-center">
                         <i class="fas fa-code fa-3x"></i>
                     </div>
-                    <h4 class="mb-4 text-center">Custom Software Solutions</h4>
-                    <p class="mb-4 text-center">Tailored software applications designed to meet your unique business
-                        needs and challenges.</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/software") ?>">Learn More</a>
+                    <h4 class="mb-4 text-center"><?=$this->lang->line('home_feature_customsof');?></h4>
+                    <p class="mb-4 text-center"><?=$this->lang->line('home_feature_tailored');?></p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/software") ?>"><?=$this->lang->line('home_button_learnmore');?></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -129,10 +122,9 @@
                     <div class="feature-icon p-4 mb-4 text-center">
                         <i class="fas fa-laptop-code fa-3x"></i>
                     </div>
-                    <h4 class="mb-4 text-center">Web & Mobile Development</h4>
-                    <p class="mb-4 text-center">Building responsive websites and user-friendly mobile apps for an
-                        optimal digital experience.</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/mobileapp") ?>">Learn More</a>
+                    <h4 class="mb-4 text-center"><?=$this->lang->line('home_feature_webmobile');?></h4>
+                    <p class="mb-4 text-center"><?=$this->lang->line('home_feature_building');?></p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/mobileapp") ?>"><?=$this->lang->line('home_button_learnmore');?></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
@@ -140,10 +132,9 @@
                     <div class="feature-icon p-4 mb-4 text-center">
                         <i class="fas fa-cloud fa-3x"></i>
                     </div>
-                    <h4 class="mb-4 text-center">Cloud Services</h4>
-                    <p class="mb-4 text-center">Scalable cloud solutions to ensure your business stays connected and
-                        secure at all times.</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/cloud") ?>">Learn More</a>
+                    <h4 class="mb-4 text-center"><?=$this->lang->line('home_feature_services');?></h4>
+                    <p class="mb-4 text-center"><?=$this->lang->line('home_feature_scalable');?></p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/cloud") ?>"><?=$this->lang->line('home_button_learnmore');?></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
@@ -151,10 +142,9 @@
                     <div class="feature-icon p-4 mb-4 text-center">
                         <i class="fas fa-chart-line fa-3x"></i>
                     </div>
-                    <h4 class="mb-4 text-center">FinTech Solutions</h4>
-                    <p class="mb-4 text-center">Innovative financial technology services, including payment gateways and
-                        blockchain integration.</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/fintech") ?>">Learn More</a>
+                    <h4 class="mb-4 text-center"><?=$this->lang->line('home_feature_fintech');?></h4>
+                    <p class="mb-4 text-center"><?=$this->lang->line('home_feature_innovation');?></p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 align-self-center" href="<?php echo site_url("services/fintech") ?>"><?=$this->lang->line('home_button_learnmore');?></a>
                 </div>
             </div>
         </div>
@@ -170,20 +160,14 @@
         <div class="row g-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="about-item-content bg-white rounded p-5 h-100">
-                    <h4 class="text-primary">About TitanDeploy</h4>
-                    <h1 class="display-4 mb-4">Innovating for a Smarter Future</h1>
-                    <p>At TitanDeploy, we specialize in creating transformative solutions that empower businesses to
-                        reach new heights. With our expertise in cutting-edge technologies, we deliver unmatched value
-                        to our clients worldwide.</p>
-                    <p>Our team is committed to fostering innovation, driving efficiency, and building a smarter future
-                        for businesses across diverse industries.</p>
-                    <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Tailored technology solutions for
-                        your business needs</p>
-                    <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Expertise in software, cloud, and
-                        FinTech</p>
-                    <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>A trusted partner for
-                        long-term success</p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5" href="<?php echo site_url("about/") ?>">More Information</a>
+                    <h4 class="text-primary"><?=$this->lang->line('home_aboutstart_titandeploy');?></h4>
+                    <h1 class="display-4 mb-4"><?=$this->lang->line('home_aboutstart_innovation');?></h1>
+                    <p><?=$this->lang->line('home_aboutstart_attitandeploy');?>.</p>
+                    <p><?=$this->lang->line('home_aboutstart_ourteam');?></p>
+                    <p class="text-dark"><i class="fa fa-check text-primary me-3"></i><?=$this->lang->line('home_aboutstart_tailored');?></p>
+                    <p class="text-dark"><i class="fa fa-check text-primary me-3"></i><?=$this->lang->line('home_aboutstart_expertise');?></p>
+                    <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i><?=$this->lang->line('home_aboutstart_atrusted');?></p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="<?php echo site_url("about/") ?>"><?=$this->lang->line('home_button_moreinfo');?></a>
                 </div>
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -201,7 +185,7 @@
                                     <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">200</span>
                                     <span class="h1 fw-bold text-primary">+</span>
                                 </div>
-                                <h4 class="mb-0 text-dark">Projects Delivered</h4>
+                                <h4 class="mb-0 text-dark"><?=$this->lang->line('home_aboutstart_projects');?></h4>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -210,7 +194,7 @@
                                     <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
                                     <span class="h1 fw-bold text-primary">+</span>
                                 </div>
-                                <h4 class="mb-0 text-dark">Global Partners</h4>
+                                <h4 class="mb-0 text-dark"><?=$this->lang->line('home_aboutstart_global');?></h4>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -219,7 +203,7 @@
                                     <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">150</span>
                                     <span class="h1 fw-bold text-primary">+</span>
                                 </div>
-                                <h4 class="mb-0 text-dark">Skilled Developers</h4>
+                                <h4 class="mb-0 text-dark"><?=$this->lang->line('home_aboutstart_skilled');?></h4>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -228,7 +212,7 @@
                                     <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">300</span>
                                     <span class="h1 fw-bold text-primary">+</span>
                                 </div>
-                                <h4 class="mb-0 text-dark">Successful Deployments</h4>
+                                <h4 class="mb-0 text-dark"><?=$this->lang->line('home_aboutstart_successful');?></h4>
                             </div>
                         </div>
                     </div>
@@ -244,11 +228,9 @@
 <div class="container-fluid service py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">Our Services</h4>
-            <h1 class="display-4 mb-4">Delivering Excellence, One Solution at a Time</h1>
-            <p class="mb-0">TitanDeploy provides tailored technology solutions that address the unique challenges of
-                businesses across industries. Our services are designed to accelerate growth, optimize efficiency, and
-                ensure long-term success.</p>
+            <h4 class="text-primary"><?=$this->lang->line('home_ourservices');?></h4>
+            <h1 class="display-4 mb-4"><?=$this->lang->line('home_ourservices_delivering');?></h1>
+            <p class="mb-0"><?=$this->lang->line('home_ourservices_titandeploy');?></p>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -262,10 +244,9 @@
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4">Custom Software Development</a>
-                            <p class="mb-4">We design and develop scalable software tailored to your business needs,
-                                ensuring robust performance and security.</p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_custom');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_ourservices_wedesign');?></p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
                 </div>
@@ -281,10 +262,9 @@
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4">Cloud Solutions</a>
-                            <p class="mb-4">Empower your business with cloud computing solutions that enhance
-                                accessibility, scalability, and efficiency.</p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_cloud');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_ourservices_empower');?></p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
                 </div>
@@ -300,10 +280,9 @@
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4">FinTech Solutions</a>
-                            <p class="mb-4">Revolutionize your financial processes with cutting-edge FinTech
-                                applications that deliver seamless experiences.</p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_fintech');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_ourservices_revolutionize');?></p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
                 </div>
@@ -319,16 +298,15 @@
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4">IoT Integration</a>
-                            <p class="mb-4">Unlock new possibilities with IoT solutions that connect devices, optimize
-                                processes, and improve decision-making.</p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_iot');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_ourservices_unlock');?></p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                <a class="btn btn-primary rounded-pill py-3 px-5" href="<?php echo site_url("about/") ?>">Explore More Services</a>
+                <a class="btn btn-primary rounded-pill py-3 px-5" href="<?php echo site_url("about/") ?>"><?=$this->lang->line('home_button_exploremore');?></a>
             </div>
         </div>
 
@@ -344,23 +322,21 @@
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="h-100">
                     <div class="mb-5">
-                        <h4 class="text-primary">Some Important FAQ's</h4>
-                        <h1 class="display-4 mb-0">FAQ About Titandeploy</h1>
+                        <h4 class="text-primary"><?=$this->lang->line('home_faqs_some');?></h4>
+                        <h1 class="display-4 mb-0"><?=$this->lang->line('home_faqs_about_titandeploy');?></h1>
                     </div>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Q: What services does Titandeploy offer?
+                                    <?=$this->lang->line('home_faqs_what_services');?>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show active"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body rounded">
-                                    A: Titandeploy specializes in custom software development, IT consulting, and
-                                    digital transformation services. We help businesses modernize their operations
-                                    through tailored software solutions, cloud integrations, and technology consulting.
+                                <?=$this->lang->line('home_faqs_titandeploy_spec');?>
                                 </div>
                             </div>
                         </div>
@@ -368,16 +344,13 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Q: How can Titandeploy assist my business with digital transformation?
+                                    <?=$this->lang->line('home_faqs_how_can');?>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    A: We offer end-to-end digital transformation solutions, from strategy and
-                                    consulting to the development and implementation of modern software applications. We
-                                    can guide your business through the adoption of cloud technologies, automation
-                                    tools, and other digital solutions that will drive growth and efficiency.
+                                <?=$this->lang->line('home_faqs_we_offer');?>
                                 </div>
                             </div>
                         </div>
@@ -385,16 +358,13 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Q: What industries does Titandeploy work with?
+                                    <?=$this->lang->line('home_faqs_what_industries');?>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    A: We work with a diverse range of industries including finance, healthcare, retail,
-                                    education, logistics, and manufacturing. Our team has experience in delivering
-                                    solutions that cater to the specific needs of each sector, ensuring a tailored
-                                    approach for maximum impact.
+                                <?=$this->lang->line('home_faqs_we_work');?>
                                 </div>
                             </div>
                         </div>
@@ -402,16 +372,13 @@
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Q: How does Titandeploy ensure the quality of its software solutions?
+                                    <?=$this->lang->line('home_faqs_how_does');?>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    A: At Titandeploy, we follow industry-standard practices for quality assurance and
-                                    software testing. Our team conducts thorough testing throughout the development
-                                    lifecycle, ensuring that our solutions meet the highest standards for performance,
-                                    security, and usability.
+                                <?=$this->lang->line('home_faqs_at_titandeploy');?>
                                 </div>
                             </div>
                         </div>
@@ -419,16 +386,13 @@
                             <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Q: Can Titandeploy help with IT consulting and strategy development?
+                                    <?=$this->lang->line('home_faqs_can_titandeploy');?>
                                 </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    A: Yes, we offer IT consulting services to help businesses develop effective
-                                    technology strategies. We analyze your current IT infrastructure, identify
-                                    opportunities for improvement, and provide strategic advice on how to leverage the
-                                    latest technologies to meet your business goals.
+                                <?=$this->lang->line('home_faqs_yes_we');?>
                                 </div>
                             </div>
                         </div>
@@ -449,11 +413,9 @@
 <div class="container-fluid blog py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">From Blog</h4>
-            <h1 class="display-4 mb-4">News And Updates</h1>
-            <p class="mb-0">Stay updated with the latest in technology, from AI advancements to our contributions to
-                local tech events like DevFest Guinée. Explore insightful articles on the modern tech landscape and our
-                role in shaping the future.</p>
+            <h4 class="text-primary"><?=$this->lang->line('home_from_blog');?></h4>
+            <h1 class="display-4 mb-4"><?=$this->lang->line('home_blog_news');?></h1>
+            <p class="mb-0"><?=$this->lang->line('home_blog_stay');?></p>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
             <!-- Blog 1: AI in Business -->
@@ -464,20 +426,18 @@
                             <img src="<?php echo base_url('assets/img/ai_revolution.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
-                                <span>AI & Business</span>
+                                <span><?=$this->lang->line('home_blog_ai');?></span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
                                 <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-calendar text-primary"></span> <?=$this->lang->line('home_blog_30_dec');?></div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> <?=$this->lang->line('home_blog_6_comm');?></div>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">How AI is Revolutionizing Business Operations</a>
-                            <p class="mb-3">Learn how Artificial Intelligence is transforming business strategies,
-                                driving
-                                innovation, and streamlining operations across various industries.</p>
-                            <a href="<?php echo site_url('blog/detail/1') ?>" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="#" class="h4 d-inline-block mb-3"><?=$this->lang->line('home_blog_howai');?></a>
+                            <p class="mb-3"><?=$this->lang->line('home_blog_learn');?></p>
+                            <a href="<?php echo site_url('blog/detail/1') ?>" class="btn p-0"><?=$this->lang->line('home_blog_read');?> <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -490,20 +450,18 @@
                             <img src="<?php echo base_url('assets/img/ai.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
-                                <span>AI & Development</span>
+                                <span><?=$this->lang->line('home_blog2_ai');?></span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
                                 <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-calendar text-primary"></span> <?=$this->lang->line('home_blog_30_dec');?></div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> <?=$this->lang->line('home_blog_6_comm');?></div>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Integrating AI into Your Development Workflow</a>
-                            <p class="mb-3">A guide to incorporating AI tools and techniques into your development
-                                process to
-                                boost productivity and create smarter applications.</p>
-                            <a href="<?php echo site_url('blog/detail/2') ?>" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="#" class="h4 d-inline-block mb-3"><?=$this->lang->line('home_blog2_integrating');?></a>
+                            <p class="mb-3"><?=$this->lang->line('home_blog2_a_guide');?></p>
+                            <a href="<?php echo site_url('blog/detail/2') ?>" class="btn p-0"><?=$this->lang->line('home_blog_read');?> <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -516,21 +474,19 @@
                             <img src="<?php echo base_url('assets/img/devfest.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
-                                <span>Tech Events</span>
+                                <span><?=$this->lang->line('home_blog3_tech');?></span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
                                 <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-calendar text-primary"></span> <?=$this->lang->line('home_blog_30_dec');?></div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> <?=$this->lang->line('home_blog_6_comm');?></div>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Supporting DevFest Guinée: Empowering Local Tech
+                            <a href="#" class="h4 d-inline-block mb-3"></span> <?=$this->lang->line('home_blog_supporting');?>
                                 </a>
-                            <p class="mb-3">This year, we proudly supported the organization of DevFest Guinée, an event
-                                focused
-                                on innovation, AI, and software development. </p>
-                            <a href="<?php echo site_url('blog/detail/3') ?>" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <p class="mb-3"><?=$this->lang->line('home_blog_this_year');?> </p>
+                            <a href="<?php echo site_url('blog/detail/3') ?>" class="btn p-0"><?=$this->lang->line('home_blog_read');?> <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

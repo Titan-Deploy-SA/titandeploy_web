@@ -13,9 +13,7 @@
 
                                     <img src="<?php echo base_url('assets/img/logo-light.png') ?>" alt="Logo">
                                 </a>
-                                <p class="text-white mb-4">TitanDeploy simplifies deployment with streamlined tools for
-                                    seamless app scaling, real-time monitoring, and efficient updates. Intuitive and
-                                    reliable for developers.</p>
+                                <p class="text-white mb-4"><?=$this->lang->line('footer_titandeploy');?></p>
                                 <div class="footer-btn d-flex">
                                     <a class="btn btn-md-square rounded-circle me-3" href="#"><i
                                             class="fab fa-facebook-f"></i></a>
@@ -37,17 +35,17 @@
                         <div class="col-md-3 col-lg-3 col-xl-3">
                             <div class="footer-item">
                                 <div class="footer-item">
-                                    <h4 class="text-white mb-4">Useful Links</h4>
+                                    <h4 class="text-white mb-4"><?=$this->lang->line('footer_useful_links');?></h4>
                                     <a href="<?php echo site_url('/') ?>"><i class="fas fa-angle-right me-2"></i>
-                                        Home </a>
+                                    <?=$this->lang->line('footer_links_home');?> </a>
                                     <a href="<?php echo site_url('/') ?>"><i class="fas fa-angle-right me-2"></i>
-                                        About</a>
+                                    <?=$this->lang->line('footer_links_about');?></a>
                                     <a href="<?php echo site_url('/') ?>"><i class="fas fa-angle-right me-2"></i>
-                                        Services</a>
+                                    <?=$this->lang->line('footer_links_services');?></a>
                                     <a href="<?php echo site_url('/') ?>"><i class="fas fa-angle-right me-2"></i>
-                                        Blogs</a>
+                                    <?=$this->lang->line('footer_links_blog');?></a>
                                     <a href="<?php echo site_url('/') ?>"><i class="fas fa-angle-right me-2"></i>
-                                        Contact</a>
+                                    <?=$this->lang->line('footer_links_contact');?></a>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +72,7 @@
                                             <i class="fas fa-envelope fa-2x"></i>
                                         </div>
                                         <div>
-                                            <h4 class="text-white">Mail Us</h4>
+                                            <h4 class="text-white"><?=$this->lang->line('footer_mail_us');?></h4>
                                             <p class="mb-0">contact@titandeploy.com</p>
                                         </div>
                                     </div>
