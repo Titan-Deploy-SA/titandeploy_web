@@ -28,7 +28,7 @@ class Welcome extends CI_Controller
 		$this->load->library('user_agent');
 
 		// Get language from session
-		$language = $this->session->userdata('site_lang') ?: 'english';
+		$language = $this->session->userdata('site_lang') ?: 'french';
 
 		// Load the selected language
 
@@ -38,7 +38,7 @@ class Welcome extends CI_Controller
 
 	}
 
-	public function changeLanguage($lang = 'english')
+	public function changeLanguage($lang = 'french')
     {
         $allowed_languages = ['english', 'french'];
 

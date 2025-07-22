@@ -47,7 +47,7 @@
         </div>
         <div class="row g-5 pt-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <img src="<?php echo base_url("assets/img/uiux-process.png") ?>" class="img-fluid w-100" alt="Benefits of UI/UX Design">
+                <img src="<?php echo base_url("assets/img/why_us.png") ?>" class="img-fluid w-100" alt="Benefits of UI/UX Design">
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
                 <h4 class="text-primary"><?=$this->lang->line('uiux_why_choose_us');?></h4>

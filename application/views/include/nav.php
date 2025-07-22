@@ -24,7 +24,7 @@
                     </div>
                     <div class="dropdown ms-3">
                         <?php
-                        $current_lang = $this->session->userdata('site_lang') ?? 'english';
+                        $current_lang = $this->session->userdata('site_lang') ?? 'french';
                         $lang_label = $current_lang === 'french' ? 'Français' : 'English';
                         $lang_flag = $current_lang === 'french' ? 'fa-globe-europe' : 'fa-globe-europe';
                         ?>
@@ -61,17 +61,14 @@
                             <span class="dropdown-toggle"><?=$this->lang->line('nav_services');?></span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="<?php echo site_url('services/software') ?>" class="dropdown-item">Custom Software
-                                Development</a>
-                            <a href="<?php echo site_url('services/web') ?>" class="dropdown-item">Web Development</a>
-                            <a href="<?php echo site_url('services/mobileapp') ?>" class="dropdown-item">Mobile App
-                                Development</a>
+                            <a href="<?php echo site_url('services/software') ?>" class="dropdown-item"><?=$this->lang->line('sub_nav_services_custom');?></a>
+                            <a href="<?php echo site_url('services/web') ?>" class="dropdown-item"><?=$this->lang->line('sub_nav_services_web');?></a>
+                            <a href="<?php echo site_url('services/mobileapp') ?>" class="dropdown-item"><?=$this->lang->line('sub_nav_services_mob');?></a>
                             <a href="<?php echo site_url('services/fintech') ?>" class="dropdown-item">FinTech
                                 Solutions</a>
-                            <a href="<?php echo site_url('services/cloud') ?>" class="dropdown-item">Cloud Services</a>
+                            <a href="<?php echo site_url('services/cloud') ?>" class="dropdown-item"><?=$this->lang->line('sub_nav_services_oracle');?></a>
                             <a href="<?php echo site_url('services/uiux') ?>" class="dropdown-item">UI/UX Design</a>
-                            <a href="<?php echo site_url('services/hiring') ?>" class="dropdown-item">Hire an
-                                experts</a>
+                            <a href="<?php echo site_url('services/hiring') ?>" class="dropdown-item"><?=$this->lang->line('sub_nav_services_hire');?></a>
                         </div>
                     </div>
                     <a href="<?php echo site_url('blog') ?>" class="nav-item nav-link"><?=$this->lang->line('nav_blog');?></a>

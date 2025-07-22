@@ -130,7 +130,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="feature-item p-4 pt-0 d-flex flex-column justify-content-between h-100">
                     <div class="feature-icon p-4 mb-4 text-center">
-                        <i class="fas fa-cloud fa-3x"></i>
+                        <i class="fas fa-database fa-3x"></i>
                     </div>
                     <h4 class="mb-4 text-center"><?=$this->lang->line('home_feature_services');?></h4>
                     <p class="mb-4 text-center"><?=$this->lang->line('home_feature_scalable');?></p>
@@ -257,13 +257,13 @@
                         <img src="<?php echo base_url('assets/img/cloud.png') ?>" class="img-fluid rounded-top w-100"
                             alt="Cloud Solutions">
                         <div class="service-icon p-3">
-                            <i class="fa fa-cloud fa-2x"></i>
+                            <i class="fa fa-database fa-2x"></i>
                         </div>
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_cloud');?></a>
-                            <p class="mb-4"><?=$this->lang->line('home_ourservices_empower');?></p>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_feature_services');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_feature_scalable');?></p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
