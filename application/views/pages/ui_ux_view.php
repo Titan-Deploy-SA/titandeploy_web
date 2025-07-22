@@ -12,7 +12,7 @@
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="d-flex justify-content-center">
                     <div class="service-img-inner">
-                        <img src="<?php echo base_url("assets/img/cloud.png") ?>" class="img-fluid w-100" alt="UI/UX Design">
+                        <img src="<?php echo base_url("assets/img/ui_ux_services.png") ?>" class="img-fluid w-100" alt="UI/UX Design">
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 </ol>
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                <img src="<?php echo base_url("assets/img/uiux-process.png") ?>" class="img-fluid w-100" alt="UI/UX Design Process">
+                <img src="<?php echo base_url("assets/img/uiux_process.png") ?>" class="img-fluid w-100" alt="UI/UX Design Process">
             </div>
         </div>
         <div class="row g-5 pt-5">

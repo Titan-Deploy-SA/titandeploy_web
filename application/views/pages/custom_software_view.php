@@ -13,7 +13,7 @@
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="d-flex justify-content-center">
                 <div class="service-img-inner">
-                    <img src="<?php echo base_url("assets/img/custom_software.png") ?>" class="img-fluid w-100"
+                    <img src="<?php echo base_url("assets/img/custom_software_new.png") ?>" class="img-fluid w-100"
                         alt="Custom Software Development">
                 </div>
             </div>
@@ -79,7 +79,7 @@
 <div class="container-fluid bg-light py-5">
         <div class="row g-5 pt-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <img src="<?php echo base_url('assets/img/contact.png') ?>" class="img-fluid w-100"
+                <img src="<?php echo base_url('assets/img/why_us.png') ?>" class="img-fluid w-100"
                     alt="Software Benefits">
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">

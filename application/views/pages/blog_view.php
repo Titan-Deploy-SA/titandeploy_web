@@ -15,7 +15,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/ai_revolution.png') ?>"
+                            <img src="<?php echo base_url('assets/img/ai_business.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('blog_ai_and_business');?></span>
@@ -39,7 +39,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/ai.png') ?>"
+                            <img src="<?php echo base_url('assets/img/ai_development.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('blog_ai_and_dev');?></span>
@@ -63,7 +63,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/devfest.png') ?>"
+                            <img src="<?php echo base_url('assets/img/tech_events.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('blog_tech_events');?></span>

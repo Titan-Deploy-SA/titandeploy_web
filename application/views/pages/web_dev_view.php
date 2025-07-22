@@ -9,11 +9,13 @@
             <p class="mb-4"><?= $this->lang->line('services_web_our_web'); ?></p>
         </div>
     </div>
+
+
     <div class="row g-5">
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
             <div class="d-flex justify-content-center">
                 <div class="service-img-inner">
-                    <img src="<?php echo base_url("assets/img/web.png") ?>" class="img-fluid w-100"
+                    <img src="<?php echo base_url("assets/img/web_dev_services.png") ?>" class="img-fluid w-100"
                         alt="Web Development">
                 </div>
             </div>
@@ -42,7 +44,6 @@
                 class="btn btn-primary py-3 px-4"><?= $this->lang->line('services_custom_button_get_free'); ?></a>
         </div>
     </div>
-
 
 </div>
 
@@ -80,7 +81,7 @@
 <div class="container-fluid bg-light py-5">
     <div class="row g-5 pt-5">
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-            <img src="<?php echo base_url("assets/img/about.png") ?>" class="img-fluid w-100"
+            <img src="<?php echo base_url("assets/img/why_us.png") ?>" class="img-fluid w-100"
                 alt="Web Development Benefits">
         </div>
         <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">

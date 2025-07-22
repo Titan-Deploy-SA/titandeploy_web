@@ -8,6 +8,8 @@
             <h1 class="display-4 mb-4"><?=$this->lang->line('mobile_app_innovative');?></h1>
             <p class="mb-4"><?=$this->lang->line('mobile_app_we_specialize');?></p>
         </div>
+
+
         <div class="row g-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="d-flex justify-content-center">
@@ -30,6 +32,8 @@
                 <a href="<?php echo site_url('contact/') ?>" class="btn btn-primary py-3 px-4"><?=$this->lang->line('mobile_app_button_get');?></a>
             </div>
         </div>
+
+
         <div class="row g-5 pt-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <h4 class="text-primary"><?=$this->lang->line('mobile_app_our_development');?></h4>
@@ -48,9 +52,11 @@
                 <img src="<?php echo base_url("assets/img/mobile_app_process.png") ?>" class="img-fluid w-100" alt="Mobile App Development Process">
             </div>
         </div>
+
+
         <div class="row g-5 pt-5">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <img src="<?php echo base_url("assets/img/contact.png") ?>" class="img-fluid w-100" alt="Mobile App Benefits">
+                <img src="<?php echo base_url("assets/img/why_us.png") ?>" class="img-fluid w-100" alt="Mobile App Benefits">
             </div>
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
                 <h4 class="text-primary"><?=$this->lang->line('mobile_app_why_choose');?></h4>

@@ -220,7 +220,7 @@ $lang["uiux_innovation"] = "Innovative and Creative Solutions";
 $lang["uiux_focus"] = "Focus on Accessibility and Inclusivity";
 $lang["uiux_streamlined"] = "Streamlined Navigation and Usability";
 $lang["uiux_enhanced"] = "Enhanced Brand Identity";
-$lang["uiux_button_get"] = "Get in Touch";
+$lang["uiux_button_get_in"] = "Get in Touch";
 
 // Hire our expert
 $lang["hire_hr_recruitement"] = "HR Recruitment";
