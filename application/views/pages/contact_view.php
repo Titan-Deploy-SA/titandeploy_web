@@ -11,7 +11,7 @@
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="contact-img d-flex justify-content-center">
                     <div class="contact-img-inner">
-                        <img src="<?php echo base_url('assets/img/contact.png') ?>" class="img-fluid w-100"
+                        <img src="<?php echo base_url('assets/img/contact_1.png') ?>" class="img-fluid w-100"
                             alt="Contact Image">
                     </div>
                 </div>

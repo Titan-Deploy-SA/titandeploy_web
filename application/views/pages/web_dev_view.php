@@ -1,6 +1,7 @@
 <?php $this->load->view("include/header") ?>
 <?php $this->load->view("include/page_header") ?>
 <!-- Web Development Start -->
+<!-- Section 1 -->
 <div class="container-fluid bg-light py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -47,6 +48,7 @@
 
 </div>
 
+<!-- Section 2 -->
 <div class="container-fluid py-5">
     <div class="row g-5 pt-5">
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
@@ -78,6 +80,7 @@
 
 </div>
 
+<!-- Section 3 -->
 <div class="container-fluid bg-light py-5">
     <div class="row g-5 pt-5">
         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">

@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-5 animated fadeInRight">
                         <div class="calrousel-img" style="object-fit: cover;">
-                            <img src="<?php echo base_url('assets/img/custom_software.png') ?>" class="img-fluid w-100"
+                            <img src="<?php echo base_url('assets/img/innovation_software.png') ?>" class="img-fluid w-100"
                                 alt="Custom Software Solutions">
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
                     <div class="col-lg-5 animated fadeInLeft">
                         <div class="calrousel-img">
-                            <img src="<?php echo base_url('assets/img/iot.png') ?>" class="img-fluid w-100"
+                            <img src="<?php echo base_url('assets/img/ai_and_iot.png') ?>" class="img-fluid w-100"
                                 alt="AI and IoT Solutions">
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="col-lg-5 animated fadeInRight">
                         <div class="calrousel-img" style="object-fit: cover;">
-                            <img src="<?php echo base_url('assets/img/fintech.png') ?>" class="img-fluid w-100"
+                            <img src="<?php echo base_url('assets/img/fintech_1.png') ?>" class="img-fluid w-100"
                                 alt="FinTech Solutions">
                         </div>
                     </div>
@@ -236,7 +236,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/custom_software.png') ?>"
+                        <img src="<?php echo base_url('assets/img/custom_software_1.png') ?>"
                             class="img-fluid rounded-top w-100" alt="Custom Software Development">
                         <div class="service-icon p-3">
                             <i class="fa fa-code fa-2x"></i>
@@ -254,7 +254,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/cloud.png') ?>" class="img-fluid rounded-top w-100"
+                        <img src="<?php echo base_url('assets/img/cloud_1.png') ?>" class="img-fluid rounded-top w-100"
                             alt="Cloud Solutions">
                         <div class="service-icon p-3">
                             <i class="fa fa-database fa-2x"></i>
@@ -272,7 +272,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/fintech.png') ?>" class="img-fluid rounded-top w-100"
+                        <img src="<?php echo base_url('assets/img/fintech_sol_1.png') ?>" class="img-fluid rounded-top w-100"
                             alt="FinTech Solutions">
                         <div class="service-icon p-3">
                             <i class="fa fa-university fa-2x"></i>
@@ -290,7 +290,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/iot.png') ?>" class="img-fluid rounded-top w-100"
+                        <img src="<?php echo base_url('assets/img/iot_1.png') ?>" class="img-fluid rounded-top w-100"
                             alt="IoT Integration">
                         <div class="service-icon p-3">
                             <i class="fa fa-cogs fa-2x"></i>
@@ -423,7 +423,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/ai_revolution.png') ?>"
+                            <img src="<?php echo base_url('assets/img/ai_business.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('home_blog_ai');?></span>
@@ -447,7 +447,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/ai.png') ?>"
+                            <img src="<?php echo base_url('assets/img/ai_development.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('home_blog2_ai');?></span>
@@ -471,7 +471,7 @@
                 <div class="h-100 d-flex flex-column justify-content-between">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="<?php echo base_url('assets/img/devfest.png') ?>"
+                            <img src="<?php echo base_url('assets/img/tech_events.png') ?>"
                                 class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span><?=$this->lang->line('home_blog3_tech');?></span>

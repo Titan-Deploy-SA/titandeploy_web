@@ -48,7 +48,7 @@ class Services extends CI_Controller {
         $this->load->view("pages/fintech_view",['tooltip'=>$tooltip]);
     }
     public function cloud(){
-        $tooltip = "CLOUD SERVICES ";
+        $tooltip = "ORACLE SOLUTIONS ";
         $this->load->view("pages/cloud_view",['tooltip'=>$tooltip]);
     }
     public function uiux(){

@@ -141,7 +141,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/custom_software.png') ?>"
+                        <img src="<?php echo base_url('assets/img/innovation_software.png') ?>"
                             class="img-fluid rounded-top w-100" alt="Custom Software Development">
                         <div class="service-icon p-3">
                             <i class="fa fa-code fa-2x"></i>
@@ -162,13 +162,13 @@
                         <img src="<?php echo base_url('assets/img/cloud.png') ?>" class="img-fluid rounded-top w-100"
                             alt="Cloud Solutions">
                         <div class="service-icon p-3">
-                            <i class="fa fa-cloud fa-2x"></i>
+                            <i class="fa fa-database fa-2x"></i>
                         </div>
                     </div>
                     <div class="service-content p-4 mt-auto">
                         <div class="service-content-inner">
-                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_ourservices_cloud');?></a>
-                            <p class="mb-4"><?=$this->lang->line('home_ourservices_empower');?></p>
+                            <a href="#" class="d-inline-block h4 mb-4"><?=$this->lang->line('home_feature_services');?></a>
+                            <p class="mb-4"><?=$this->lang->line('home_feature_scalable');?></p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#"><?=$this->lang->line('home_button_learnmore');?></a>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/fintech.png') ?>" class="img-fluid rounded-top w-100"
+                        <img src="<?php echo base_url('assets/img/fintech_1.png') ?>" class="img-fluid rounded-top w-100"
                             alt="FinTech Solutions">
                         <div class="service-icon p-3">
                             <i class="fa fa-university fa-2x"></i>
@@ -195,7 +195,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                 <div class="service-item d-flex flex-column h-100">
                     <div class="service-img">
-                        <img src="<?php echo base_url('assets/img/iot.png') ?>" class="img-fluid rounded-top w-100"
+                        <img src="<?php echo base_url('assets/img/ai_and_iot.png') ?>" class="img-fluid rounded-top w-100"
                             alt="IoT Integration">
                         <div class="service-icon p-3">
                             <i class="fa fa-cogs fa-2x"></i>
